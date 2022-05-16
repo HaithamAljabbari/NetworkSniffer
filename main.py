@@ -1,9 +1,10 @@
+# Libraries necessary
 import scapy.all as scapy
 from termcolor import cprint
 import pyfiglet
 from rich.console import Console
 
-    
+# ASCII Logo    
 logo = pyfiglet.figlet_format("SOSAKORNUT")
 cprint(logo, "cyan", "on_blue")
 
