@@ -1,10 +1,9 @@
-try:
-    import scapy.all as scapy
-    from termcolor import cprint
-    import pyfiglet
-    from rich.console import Console
-except ImportError:
-    print("You do not have at least one of the following libraries: scapy, rich, termcolor, pyfiglet")
+import scapy.all as scapy
+from termcolor import cprint
+import pyfiglet
+from rich.console import Console
+
+    
 logo = pyfiglet.figlet_format("SOSAKORNUT")
 cprint(logo, "cyan", "on_blue")
 
